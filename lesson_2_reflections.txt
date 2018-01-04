@@ -9,3 +9,7 @@ The staging area is a state of the file at a given time that will be included in
 Question: How can you use the staging area to make sure you have one commit per logical change?
 
 It allows you to asynchronously add files to the staging area as they are finished.  This helps in the event that some of the files take more time to finish.  It also protects you from the scenario where you accidentally change a file after staging it.  The modification won't be included in the commit. 
+
+Question: What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Whenever you want to experiment with the existing codebase.  If you would like to modify the system in a not yet approved way, a branch is a useful way to get there.
