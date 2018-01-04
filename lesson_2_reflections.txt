@@ -20,4 +20,10 @@ By having pointers going back to parents, it makes it very clear what constitute
 
 Question: What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
-A new commit is created.  This commit becomes the child of the master branch and the other branch.  The master branch subsequently becomes where that new commit occurs.  
+A new commit is created.  This commit becomes the child of the master branch and the other branch.  The master branch subsequently becomes where that new commit occurs. 
+
+Question: What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Pros: When Git automatically merges you can be confident that there is unlikely to be an issue in what is put together.  
+
+Cons: In some cases, it may not be able to merge even though the items that are conflicting are not modifying the same content--only the same lines.  
