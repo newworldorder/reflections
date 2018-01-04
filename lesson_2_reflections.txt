@@ -13,3 +13,11 @@ It allows you to asynchronously add files to the staging area as they are finish
 Question: What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
 Whenever you want to experiment with the existing codebase.  If you would like to modify the system in a not yet approved way, a branch is a useful way to get there.
+
+Question: How do the diagrams help you visualize the branch structure?
+
+By having pointers going back to parents, it makes it very clear what constitutes a branch.  It's a linear collection of earllier commits.
+
+Question: What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+A new commit is created.  This commit becomes the child of the master branch and the other branch.  The master branch subsequently becomes where that new commit occurs.  
