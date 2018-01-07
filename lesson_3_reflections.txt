@@ -39,3 +39,11 @@ clarity would make working a little bit easier in that it would ensure there wer
 no conflicts. However, it would be harder in the sense that this would likely be an
 inefficient way of collaborating. 
 
+Question: When would you want to make changes in a separate branch rather than directly
+in master? What benefits does each approach have?
+
+Working on separate branch is advisable if you're planning to patch an existing codebase.
+ The branch name can help provide some clarity around what the pull request is about.
+  I don't see a good reason to not merge a change into your forked version's master
+  before before making your pull request. If there was no fork, then the branch scenario
+  makes more sense. 
