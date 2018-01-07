@@ -29,3 +29,13 @@ stored locally?
 
 It enables that local copy to serve as a server for other clients.  If the server
 were to ever become damaged, then there would still be a way to restore the repo.
+
+Question: How would you collaborate without using Git or GitHub? What would be easier,
+and what would be harder?
+
+We would have to have great communication about who was working on what exactly. 
+We would need to ensure that we were working on mutually exclusive items. That forced
+clarity would make working a little bit easier in that it would ensure there were
+no conflicts. However, it would be harder in the sense that this would likely be an
+inefficient way of collaborating. 
+
