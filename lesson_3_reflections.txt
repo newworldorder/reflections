@@ -12,3 +12,17 @@ automatically stay up-to-date with your remote repository?
 Some pushes may break dependencies of a project you're working on. Separately, you
 may be working something that is designed to work for a previous previous version
 of the commit history. 
+
+Question: Describe the differences between forks, clones, and branches. When would
+you use one instead of another?
+
+Forks are git clones that happen on GitHub servers.  Clones copy a git repo from one
+location to another. Branches correspond to the head of a commit history.  You would
+use forks when you wanted to patch/modify an existing project on GitHub and eventually
+make a pull request to the original repository. Branches are done when you want to
+experiment with some new direction of a given codebase and you know that others will
+be making updates to the master or the master is branch is expected to not have these
+kind of experiments occurring. 
+
+
+
