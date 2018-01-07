@@ -6,26 +6,42 @@ lines from the new file next to each other.
 Question: How could having easy access to the entire history of a file make you
 a more efficient programmer in the long term?
 
-By being able to go to previous versions of a file, if the current version ever gets into a bad state, you can straightforwardly find the last good version of the code. When you deploy a new version of code, it's likely that you can find that it has a bug and you need to revert to an early version.  It may also help you understand how the codebase got to be a certain way.
+By being able to go to previous versions of a file, if the current version ever gets
+into a bad state, you can straightforwardly find the last good version of the code.
+When you deploy a new version of code, it's likely that you can find that it has a
+bug and you need to revert to an early version.  It may also help you understand how
+the codebase got to be a certain way.
 
-Question: What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+Question: What do you think are the pros and cons of manually choosing when to create
+a commit, like you do in Git, vs having versions automatically saved, like Google
+Docs does?
 
 Pros: enables logical commits so others can easily follow what happened to the repository.
 Cons: one users logical unit may not be anothers users logical unit. 
 
 
-Question: Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+Question: Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
 
-When writing code, it's very common that to add functionality, many files will need to be changed.
+When writing code, it's very common that to add functionality, many files will need
+to be changed.
 
-Question: How can you use the commands git log and git diff to view the history of files?
+Question: How can you use the commands git log and git diff to view the history of
+files?
 
-git log allows you to see the set of commits to a repo.  If you add the flag '--stat' to it, you'll be able to see what files were affected and the total number of additions or deletions.  git diff allows you to see what the specific changes were between two commits.
+git log allows you to see the set of commits to a repo.  If you add the flag '--stat'
+to it, you'll be able to see what files were affected and the total number of additions
+or deletions.  git diff allows you to see what the specific changes were between two commits.
 
-Question: How might using version control make you more confident to make changes that could break something?
+Question: How might using version control make you more confident to make changes
+that could break something?
 
-You know you can goes checkout an earlier version or that you can create a branch that allows you to play around with the code without ever affecting code that others potentially depend on. 
+You know you can goes checkout an earlier version or that you can create a branch
+that allows you to play around with the code without ever affecting code that others
+potentially depend on. 
 
-Question: Now that you have your workspace set up, what do you want to try using Git for?
+Question: Now that you have your workspace set up, what do you want to try using Git
+for?
 
-I plan on using git for projects that I'm interested in doing: Think Bayes/Stats in Kotlin, the Android course, the iOS Development course.
+I plan on using git for projects that I'm interested in doing: Think Bayes/Stats in
+Kotlin, the Android course, the iOS Development course.

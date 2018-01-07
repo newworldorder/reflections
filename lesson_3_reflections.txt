@@ -1,8 +1,14 @@
-Question: When would you want to use a remote repository rather than keeping all your work local?
+Question: When would you want to use a remote repository rather than keeping all your
+work local?
 
-When it's possible that your machine may be compromised or corrupted, or when you're collaborating with someone else, or when you want to make it easy for others to collaborate with you. 
+When it's possible that your machine may be compromised or corrupted, or when you're
+collaborating with someone else, or when you want to make it easy for others to collaborate
+with you. 
 
 
-Question: Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+Question: Why might you want to always pull changes manually rather than having Git
+automatically stay up-to-date with your remote repository?
 
-Some pushes may break dependencies of a project you're working on. Separately, you may be working something that is designed to work for a previous previous version of the commit history. 
+Some pushes may break dependencies of a project you're working on. Separately, you
+may be working something that is designed to work for a previous previous version
+of the commit history. 
