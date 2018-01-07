@@ -24,5 +24,8 @@ experiment with some new direction of a given codebase and you know that others 
 be making updates to the master or the master is branch is expected to not have these
 kind of experiments occurring. 
 
+Question: What is the benefit of having a copy of the last known state of the remote
+stored locally?
 
-
+It enables that local copy to serve as a server for other clients.  If the server
+were to ever become damaged, then there would still be a way to restore the repo.
