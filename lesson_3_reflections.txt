@@ -44,6 +44,5 @@ in master? What benefits does each approach have?
 
 Working on separate branch is advisable if you're planning to patch an existing codebase.
  The branch name can help provide some clarity around what the pull request is about.
-  I don't see a good reason to not merge a change into your forked version's master
-  before before making your pull request. If there was no fork, then the branch scenario
-  makes more sense. 
+ The idea is that if you crreate a separate branch, it allows your forked master branch
+ to stay current with original repo's master branch. 
